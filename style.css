@@ -1,0 +1,78 @@
+img
+{
+    width: 60px;
+    align-self: flex-start;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+.Header
+{
+    background:hsl(0, 0%, 0%);
+    margin: 0%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+body
+{
+    margin: 0%;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+.Links
+{
+    display: flex;
+    padding-top: 2%;
+    padding-right: 2%;
+    justify-content: space-between;
+    width: 30%;
+
+}
+a:hover
+{
+    color: rgb(49, 252, 90);
+    cursor: pointer;
+}
+.main
+{
+    height: 100vh;
+    color: rgb(49, 252, 90);
+    align-self: center;
+    font-size: 50px;
+    background: url("bursts-tablet.svg");
+    background-color: blue;
+    background-position: 49% 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1
+{
+    margin-top: 0%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+p
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+button
+{
+    display: block;
+    border-radius: 20px;
+    width: fit-content;
+    height: 40px;
+    background-color: rgb(49, 252, 90);
+    border: none;
+    color: blue;
+}
